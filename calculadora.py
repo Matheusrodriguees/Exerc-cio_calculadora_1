@@ -2,7 +2,7 @@ def potencia (a, b):
   return a ** b
 
 def divisao (a, b):
-  pass
+  return a // b
 
 def multiplicacao (a, b):
   pass
