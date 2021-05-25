@@ -5,7 +5,7 @@ def divisao (a, b):
   return a // b
 
 def multiplicacao (a, b):
-  pass
+  return a * b
 
 def subtracao (a, b):
   pass
@@ -22,7 +22,7 @@ if operacao == '+':
 elif operacao == '-':
   resultado = a - b
 elif operacao == '*':
-  resultado = a * b
+  resultado = multiplicacao(a, b)
 elif operacao == '/':
   resultado = a // b
 else:
