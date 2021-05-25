@@ -1,5 +1,5 @@
 def potencia (a, b):
-  pass
+  return a ** b
 
 def divisao (a, b):
   pass
